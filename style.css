@@ -131,6 +131,28 @@ html {
 
   /* mp */
 
-  .mpitem:not( :last  ) {
+  .mpList {
+    flex-wrap: wrap;
+  }
 
+  .mpListItem {
+    width: 300px;
+    margin-bottom: 65px;
+  }
+
+  .mpListItem:not(:nth-child(3n)) {
+    margin-right: 17px;
+  }
+
+  .mpText {
+    margin-bottom: 8px;
+  }
+
+  .mpitem {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mpItemImage {
+    margin-bottom: 35px;
   }

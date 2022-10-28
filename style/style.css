@@ -156,3 +156,10 @@ html {
   .mpItemImage {
     margin-bottom: 35px;
   }
+
+  /* btm */
+
+  .imgOffer {
+    flex-wrap: wrap;
+  }
+  

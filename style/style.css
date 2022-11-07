@@ -196,4 +196,21 @@ html {
   .imgOffer {
     margin-bottom: 130px;
   }
-  
+
+  /*  btmls  */
+
+  .btmlsTitle {
+    margin-top: 100px;
+    margin-bottom: 102px;
+    text-align: center;
+  }
+
+  .btmlsListItem {
+    flex-direction: column;
+    width: 300px;
+  }
+
+
+  .btmlsListItem:not(:last-child) {
+    margin-right: 20px;
+  }

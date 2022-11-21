@@ -68,10 +68,37 @@ html {
     padding-bottom: 28px;
   }
 
+  .headerNavItem {
+    font-family: "Karla";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .cartSign {
+    font-family: "Karla";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
  /* hero */
   .heroList {
     flex-direction: column ;
     align-items: center;
+  }
+
+  .heroListItemFirst {
+    font-family: "Karla";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .heroListItemSecond {
+    font-family: "Karla";
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 60px;
   }
 
   .heroListItemFirst {
@@ -85,6 +112,8 @@ html {
   .heroListItemFourth {
     margin-bottom: 38px;
   }
+
+
 
   /* stet */
   .stetList {

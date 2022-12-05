@@ -21,7 +21,7 @@ html {
   
   body {
     min-width: 1200px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 16px;
   }
 
@@ -68,37 +68,10 @@ html {
     padding-bottom: 28px;
   }
 
-  .headerNavItem {
-    font-family: "Karla";
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-  }
-
-  .cartSign {
-    font-family: "Karla";
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-  }
-
  /* hero */
   .heroList {
     flex-direction: column ;
     align-items: center;
-  }
-
-  .heroListItemFirst {
-    font-family: "Karla";
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-  }
-  .heroListItemSecond {
-    font-family: "Karla";
-    font-weight: 400;
-    font-size: 47px;
-    line-height: 60px;
   }
 
   .heroListItemFirst {
@@ -112,8 +85,6 @@ html {
   .heroListItemFourth {
     margin-bottom: 38px;
   }
-
-
 
   /* stet */
   .stetList {
@@ -157,8 +128,14 @@ html {
   .fmPrice {
     margin-bottom: 152px;
   }
+  
 
   /* mp */
+
+  .mpitem {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 
   .mpList {
     flex-wrap: wrap;
@@ -175,6 +152,37 @@ html {
 
   .mpText {
     margin-bottom: 8px;
+  }
+  
+  .mpPriceItem {
+    flex-direction: column;
+    margin-bottom: 65px;
+  }
+
+  /*  btm  */
+
+  .imgParent {
+    margin-left: 250px;
+  }
+
+  .offer {
+    align-items: left;
+  }
+
+  .btmParent {
+    flex-direction: row;
+  }
+
+  /* footer  */
+
+  .footerElement {
+    flex-direction: column;
+    align-content: left;
+  }
+
+  .footerElementItem {
+    width: 111px;
+    margin-bottom: 24px;
   }
 
   .mpitem {
@@ -226,20 +234,20 @@ html {
     margin-bottom: 130px;
   }
 
-  /*  btmls  */
-
-  .btmlsTitle {
-    margin-top: 100px;
-    margin-bottom: 102px;
-    text-align: center;
-  }
-
-  .btmlsListItem {
+  .suagfcbItem {
     flex-direction: column;
-    width: 300px;
+    align-items: center;
   }
 
-
-  .btmlsListItem:not(:last-child) {
-    margin-right: 20px;
+  .formWrapper {
+    flex-direction: column;
   }
+
+  .formTitle {
+    margin-bottom: 15px;
+  }
+
+  .formElement {
+    margin-bottom: 25px;
+  }
+
